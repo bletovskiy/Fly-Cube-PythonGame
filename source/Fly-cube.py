@@ -17,8 +17,8 @@ screen = pygame.display.set_mode((screen_width, screen_height), vsync=1)
 pygame.display.set_caption("Летающий квадрат")
 
 # Загрузка спрайтов для игрока и врагов
-player_image = pygame.image.load("player.png").convert_alpha()
-enemy_image = pygame.image.load("enemy.png").convert_alpha()
+player_image = pygame.image.load("sprites/player.png").convert_alpha()
+enemy_image = pygame.image.load("sprites/enemy.png").convert_alpha()
 
 # Масштабирование спрайтов до нужного размера
 player_image = pygame.transform.scale(player_image, (PLAYER_SIZE, PLAYER_SIZE))
